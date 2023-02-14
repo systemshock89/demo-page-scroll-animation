@@ -22,7 +22,7 @@ function serve() {
     });
 
     watch(["./src/*.html", "./src/includes/*.html"], { usePolling: true }, html);
-    watch(["./src/fonts/**/*"], { usePolling: true }, copyAssets);
+    watch(["./src/fonts/**/*", "./src/js/libs/**/*"], { usePolling: true }, copyAssets);
     watch('./src/img/**/*', { usePolling: true }, images);
     watch('./src/sprites/**/*', { usePolling: true }, sprites);
     watch("./src/scss/**/*", { usePolling: true }, styles);
