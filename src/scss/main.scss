@@ -1,0 +1,18 @@
+@use 'sass:math';
+
+@import "_base/variables";
+@import "_helpers/mixins";
+@import "_helpers/functions";
+
+// normalize
+@import 'node_modules/modern-normalize/modern-normalize';
+
+// шрифты
+@import "_base/fonts";
+
+// CSS-файлы библиотек
+@import "vendor/libs";
+
+@import "_base/_base";
+@import "blocks/_header";
+@import "blocks/_gallery";

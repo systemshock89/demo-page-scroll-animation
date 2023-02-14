@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    @@include('head.html', {
+    "title": "Gallery with scroll",
+    "description": "Gallery with scroll"
+    })
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+
+            @@include('header.html')
+
+            <div class="portfolio">
+                <div class="container">
+                    <main class="gallery">
+
+                        <div data-speed=".9" class="gallery__left">
+                            <img class="gallery__item" src="img/work/1.webp" alt="">
+                            <img class="gallery__item" src="img/work/2.webp" alt="">
+
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
+                                <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+                            </div>
+
+                            <img class="gallery__item" src="img/work/6.webp" alt="">
+                        </div>
+
+                        <div data-speed="1.1" class="gallery__right">
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">Creative floating scroll with amazing parallax effect</h2>
+                                <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+                            </div>
+                            <img class="gallery__item" src="img/work/4.webp" alt="">
+                            <img class="gallery__item" src="img/work/5.webp" alt="">
+                            <img class="gallery__item" src="img/work/3.webp" alt="">
+                        </div>
+
+                    </main>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/libs/ScrollSmoother.min.js" defer></script>
+    <script src="js/bundle.min.js" defer></script>
+
+</body>
+</html>
