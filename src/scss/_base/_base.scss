@@ -16,6 +16,24 @@ body {
   overflow-x: clip;
   background-image: url('../img/bg.webp');
   background-size: 50px;
+
+  // scrollbar
+  $scrollbarWidth: 5px;
+  $scrollbarBg: #1E1E1E;
+  $scrollbarThumb: rgba(90, 90, 90, 0.8);
+  scrollbar-width: $scrollbarWidth;
+  scrollbar-color: $scrollbarThumb $scrollbarBg;
+  &::-webkit-scrollbar {
+    width: $scrollbarWidth;
+  }
+  &::-webkit-scrollbar-track {
+    background: $scrollbarBg;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $scrollbarThumb;
+    border-radius: 10px;
+  }
+
 }
 
 h1, h2, h3, h4, h5, h6 {
