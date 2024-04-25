@@ -1,5 +1,5 @@
-<h1>Gallery with scroll</h1>
-<p><a href="https://systemshock89.github.io/demo-gallery-scroll/">See demo</a></p>
+<h1>Page scroll animation</h1>
+<p><a href="https://systemshock89.github.io/demo-page-scroll-animation/">See demo</a></p>
 
 <h2>Used features</h2>
 <ul>
